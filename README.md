@@ -1,16 +1,24 @@
-# Self Intro
+# 自我介绍
+谦谦君子，2010 年毕业于北京大学信息管理系；毕业后曾在酷我音乐、人人游戏、腾讯等互联网公司从事 Web 开发及游戏开发；
+2019年底加入成都数字天空， 负责组建GameAI团队。
 
 # AlphaZero系列论文发展进程
 
 ## AlphaGo
+一举成名
 
 ## AlphaGoZero
+无师自通
 
 ## AlphaZero
+一招鲜吃遍天
 
 ## MuZero
+自学环境模型
+
 
 ## EfficientZero
+大大提高MuZero的数据效率。
 
 
 # AlphaZero架构设计
@@ -39,6 +47,7 @@
 * policy & value net统一
 * Conv -> ResNet 
 * 数据增强
+* 不做eval， 直接用最新的model搜集数据
 
 
 # 开源复现
@@ -46,7 +55,7 @@
 * ELF
 * LeeZero
 * KataGo
-* 觉悟
+* 腾讯 https://github.com/Tencent/PhoenixGo
 * minigo
 
 # AlphaZero.jl
@@ -56,7 +65,6 @@
 ![AlphaZero.jl](./azjl-1.png)
 
 * train
-* explore
 * vs Human
 
 
